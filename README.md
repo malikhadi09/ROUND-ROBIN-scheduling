@@ -21,16 +21,19 @@ Implement the functions for the following:
     averageTurnAroundTime()
     
 # Step to findWaitingTime()
-1)Create an array rem_burstTime[] to keep track of the remaining burst time of
-processes. This array is initially a copy of burstTime[] (burst times array)
+1)Create an array rem_burstTime[] to keep track of the remaining burst time of processes. This array is initially a copy of burstTime[] (burst times array)
+
 2)Create another array waitingTime[] to store waiting times of processes. Initialize this
 array as 0.
+
 3)Initialize time: time = 0
-4) Keep traversing all the processes while they are not done. Do the following for i’th
-process if it is not done yet.
+
+4) Keep traversing all the processes while they are not done. Do the following for i’th process if it is not done yet. 
+
 5) If rem_burstTime[i] > quantum
  time = time + quantum
  rem_burstTime[i] -= quantum;
+
 6) Else // Last cycle for this process
  time = time + rem_burstTime[i];
  waitingTime[i] = time – burstTime[i]
