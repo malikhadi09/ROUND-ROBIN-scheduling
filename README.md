@@ -39,6 +39,6 @@ array as 0.
  waitingTime[i] = time – burstTime[i]
  rem_busrtTime[i] = 0; // This process is over
 
-#OUTPUTS:
+# OUTPUTS:
 ![image](https://user-images.githubusercontent.com/92660593/209430799-4c819dd9-15de-4deb-8d51-22f94397668f.png)
 ![image](https://user-images.githubusercontent.com/92660593/209430805-0ab847b4-6200-4294-9695-b664b46c851f.png)
